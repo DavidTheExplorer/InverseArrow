@@ -1,0 +1,4 @@
+name: InverseArrow
+main: dte.inversearrow.InverseArrow
+version: 1.0
+description: Get your arrow back if you managed to shoot someone.
