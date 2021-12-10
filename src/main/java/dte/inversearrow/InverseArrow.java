@@ -62,7 +62,7 @@ public class InverseArrow extends JavaPlugin implements Listener
 		if(!this.arrowsItems.containsKey(arrow))
 			return;
 
-		System.out.println(shooter.getInventory().addItem(this.arrowsItems.remove(arrow)).isEmpty());
+		shooter.getInventory().addItem(this.arrowsItems.remove(arrow));
 	}
 
 	//EntityShootBowEvent#getConsumable wasn't used in order to support all versions
